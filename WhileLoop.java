@@ -10,7 +10,7 @@ public class WhileLoop {
         }
         System.out.println("Printed hello world 100x");
 
-        //  print numbers from 1 to 10
+        // //  print numbers from 1 to 10
 
         int counter1 = 1;
         while (counter1 <= 10) {
@@ -18,7 +18,7 @@ public class WhileLoop {
             counter1 ++;
         }
 
-        //  print numbers from 1 to n
+        // //  print numbers from 1 to n
         int counter2 = 1;
         Scanner sc = new Scanner(System.in);
         System.out.println("enter n");
@@ -29,7 +29,7 @@ public class WhileLoop {
         }
 
         int i = 1;
-        // Scanner sc = new Scanner(System.in);
+        // // Scanner sc = new Scanner(System.in);
         int nu = sc.nextInt();
         int sum = 0;
         while (i <= nu) {
@@ -39,5 +39,14 @@ public class WhileLoop {
         }
         System.out.println(sum);
         sc.close();
+
+        int k = 44754678;
+        while (k > 0) {
+            int lastdigit = k % 10;
+            System.out.print(lastdigit);
+             k = k / 10;
+        }
+
+
     }
 }
