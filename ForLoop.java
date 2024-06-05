@@ -4,10 +4,17 @@ public class ForLoop {
             System.out.println("****");
         }
         //  using while loop
-        int i = 1;
-        while (i <= 4) {
-            System.out.println("****");
-            i++;
+        // int i = 1;
+        // while (i <= 4) {
+        //     System.out.println("****");
+        //     i++;
+        // }
+
+        for(int i = 1; i <=5; i++) {
+            if (i == 3) {
+                continue;
+            }
+            System.out.println(i);
         }
     }
 }

@@ -19,5 +19,16 @@ public class DoWhileLoop {
             System.out.println(n);
 
         } while (true);
+
+        do {
+            System.out.println("enter number");
+            int n = sc.nextInt();
+
+            if (n % 10 == 0) {
+                continue;
+            }
+            System.out.println(n);
+
+        } while (true);
     }
 }
