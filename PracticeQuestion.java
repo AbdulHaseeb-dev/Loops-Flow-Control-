@@ -32,5 +32,27 @@ public class PracticeQuestion {
         System.out.println(oddSum);
 
         sc.close();
+
+        // Question 3 : Write a program to find the factorial of any number entered by the user.
+        
+        // To hold number
+        int num;
+        
+        // To hold factorial
+        int fact = 1;
+        
+        // Prompting user to enter a positive integer
+        System.out.print("Enter any positive integer: ");
+        num = sc.nextInt();
+        
+        // Calculating factorial
+        for (int i = 1; i <= num; i++) {
+            fact *= i;
+        }
+        
+        // Displaying the factorial
+        System.out.println("Factorial: " + fact);
+
     }
 }
+
